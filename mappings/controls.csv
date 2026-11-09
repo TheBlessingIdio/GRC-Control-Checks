@@ -1,0 +1,6 @@
+check_id,check_name,soc2_criteria,iso27001_2022,what_it_proves
+IAM-MFA,All IAM users with a console password have MFA,CC6.1,A.8.5,Users sign in with a second factor
+IAM-INACTIVE,No IAM users inactive for 90+ days,CC6.2,A.5.18,Unused access is removed or reviewed
+S3-PUBLIC,All S3 buckets block public access,CC6.1,A.8.3,Data access is restricted
+CT-ENABLED,CloudTrail is on and logging,CC7.2,A.8.15,Activity is logged for monitoring
+IAM-PWPOLICY,Account password policy meets minimum,CC6.1,A.5.17,Password rules are enforced
